@@ -21,7 +21,7 @@ TYPE YOUR ANSWERS HERE
 
 //Reassigning Variables
 let instructor = 'Billy Bob'
-//Reassign the instrutor variable to have a value of your instructor's name
+//Reassign the instrutor variable to have a value of your instructor's names
 
 //If statements
 let age = 15
