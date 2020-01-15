@@ -21,7 +21,7 @@ TYPE YOUR ANSWERS HERE
 
 //Reassigning Variables
 let instructor = 'Billy Bob'
-//Reassign the instrutor variable to have a value of your instructor's names
+//Reassign the instrutor variable to have a value of Matias
 
 //If statements
 let age = 15
@@ -34,6 +34,8 @@ let age = 15
 //If age is 18 or greater console log 'Hogwarts is right out'
 
 //Write an if statement that checks if age is equal to 16 or 21.  If it is, console log 'what a big year' otherwise console log 'no big deal'
+
+//Write an if statement that checks if age is not 22.  If so, console log 'feeling normal'  otherwise, console log 'Feeling 22'
 
 //Try changing the value of the age variable to get different results from your if statements
 
