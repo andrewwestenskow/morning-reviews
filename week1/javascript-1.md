@@ -10,3 +10,5 @@
 ## REVIEW
 
 Give them [this](https://repl.it/@awestenskow/javascript-1-review) repo. Give them 15 minutes to work as far as they can and then go through it together. Answer any questions along the way.
+
+If that repl is no longer available, it is identical to the `javascript-1` file in this repo.
