@@ -48,6 +48,10 @@ We will review the following topics:
   - reduce
   - forEach
   - findIndex
+- HTML/CSS
+  - Layout
+  - Flex
+  - Position
 
 ## Examples to combine concepts
 
@@ -58,6 +62,11 @@ We will review the following topics:
 - Create a person object and include methods on it.
 
 - For in loop to change values on an object
+
+## HTML and vanilla practice
+
+- Design with the class a simple counter app.  Work with them on creating the layout and styling.  
+- Use javascript to make the counter functional. 
 
 ## Bonus practice
 
@@ -73,4 +82,6 @@ These are javascript concepts that have been covered in lecture but are not incl
     - bind
   - Behavior of arrow functions
 - Constructor functions
+  - new keyword
 - Prototypes
+  - Custom prototypes
