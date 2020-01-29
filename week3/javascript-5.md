@@ -12,7 +12,7 @@
 - Start out by reviewing context and the this keyword with students
 
   - Context is the value of this
-  - this is a placeholder for the object to which a method or property belong
+  - this is a placeholder for the object to which a method or property belongs
     - Review explicit, implicit, and default context
       - default: window (different in node)
       - implicit: inside of a function declaration
