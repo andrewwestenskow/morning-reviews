@@ -16,7 +16,9 @@ We will be using [this](https://github.com/andrewwestenskow/node-morning-reviews
 1. Run `npm init -y` and show them how this creates a `package.json` file. This is now a good time to build out the file structure.
 2. Create a server folder and place an `index.js` and `controller.js` in that folder.
    1. You should also review with them the `"main"` property in the `package.json` file as well.
-3. Step by step, build out with them the following server file:
+3. Install express using npm and show them how this now creates a lockfile and a node_modules folder
+   1. Review .gitignore and show them how to include their node_modules in that file
+4. Step by step, build out with them the following server file:
 
 ```js
 //index.js
