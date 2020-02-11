@@ -5,9 +5,12 @@
 - Notes: https://github.com/WLH-17/orientation-day
 - Slides: https://slides.com/matias_perez/lehi-web-immersive-orientation/#/
 
-## Important concepts to review
+## Important Concepts to Review
 
 1. Review the difference between Git and GitHub
+- Ask the students if anyone has a background where they had to file a lot of paperwork
+- Then using that example, talk about how it doesn't make sense to keep all the files in one folder stacked on your desk and how it makes more sense to file / organize them using labels so you know exactly where each of those files are at
+- Next talk about how this relates to Git and how the file cabinet is like GitHub 
 
 2. Kahoot! Review of Git & CLI concepts(https://create.kahoot.it/share/git-cli-review/98817ab0-c116-4576-806b-650db777a752)
 
@@ -95,7 +98,7 @@
     5. Check your version of the repo on github. You should see your commit message and your changes to the file.
        > If you are using my repo, take this time to show that you do not have `invisible.js` because it is included in the `.gitignore` file
 
-   ## Extra Content
+   ## Extra Content (Time Permitting)
    - Preview HTML / CSS I Content
    - Extension Suggestions:
    
@@ -105,7 +108,6 @@
    > - WhatFont
 
    > VSCode Extensions:
-   > - Video Speed Controller
    > - Auto Close Tag
    > - Auto Rename Tag
    > - AutoFileName
