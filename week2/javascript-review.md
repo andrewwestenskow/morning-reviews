@@ -4,7 +4,7 @@ This review should be centered around the skills check that is given at the end 
 
 ## Review
 
-The review will be done using [this](https://repl.it/@awestenskow/javascript-review) repl. Feel free to fork it an make any necessary changes before sending out to your students. Have them code along to give them a solid set of reference code.
+The review will be done using [this](https://repl.it/@awestenskow/javascript-review) repl. Feel free to fork it an make any necessary changes before sending out to your students. It can also be found [here](javascript-review.js). Have them code along to give them a solid set of reference code.
 
 We will review the following topics:
 
@@ -65,8 +65,8 @@ We will review the following topics:
 
 ## HTML and vanilla practice
 
-- Design with the class a simple counter app.  Work with them on creating the layout and styling.  
-- Use javascript to make the counter functional. 
+- Design with the class a simple counter app. Work with them on creating the layout and styling.
+- Use javascript to make the counter functional.
 
 ## Bonus practice
 
