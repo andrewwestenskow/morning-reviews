@@ -45,6 +45,7 @@ Before jumping in, ask for any questions. Try to structure the review around the
    - [Open in Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
    - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
    - Themes - ex: Theme-TinaciousDesign or Popping and Locking Theme
+   - [Code spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
    - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Be careful that you don't get too lazy and rely heavily on this!
 
 3. Browser extensions
@@ -111,7 +112,7 @@ Before jumping in, ask for any questions. Try to structure the review around the
 
    - HTML attributes allow you to add more information to an element. Examples include class, href, src, alt, style, id, etc.
 
-8. Discuss Parent, Sibings and Children element relationships
+8. Discuss Parent, Siblings and Children element relationships
    - Elements can be parent elements (contain other elements inside of it), sibling elements (next to other elements), and children elements (contained within other elements) all at the same time
 
 ## CSS Review
@@ -127,8 +128,8 @@ Before jumping in, ask for any questions. Try to structure the review around the
 3. What are CSS Selectors and what are some common examples?
 
    - element name
-   - `.` - id
-   - `#` - class
+   - `#` - id
+   - `.` - class
    - `*` - Universal selector, selects all elements
    - `,` - Group combinator - combines selectors into one block
    - `` - Descendant Combinator
