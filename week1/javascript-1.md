@@ -30,4 +30,4 @@ Before jumping in, ask for any questions. Try to structure the review around the
 
 Give them [this](https://repl.it/@LucasSchaat/javascript-1-morning-review) repo. Give them 15 minutes to work as far as they can and then go through it together. Answer any questions along the way.
 
-If that repl is no longer available, it is identical to the `javascript-1` file in this repo.
+If that repl is no longer available, it is identical to the [this](javascript-1.js) file.
