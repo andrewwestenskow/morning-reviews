@@ -1,12 +1,21 @@
-# Javascript 2 Review
+# Week 1, Day 4 Review - Javascript 2
 
-## Important subjects to cover are:
+Before jumping in, ask for any questions. Try to structure the review around their questions, making sure to touch on any points they ask about. I find it helpful to write down all of their questions at the start and work from there.
 
-- for loops
-- Callback functions
-- Ternaries
-- Modulus
-- Object referencing
+## Lecture Notes and Slides
+
+- Notes: https://github.com/WLH-16/javascript-2
+- Slides: https://slides.com/mattbodily/javascript-two#/
+
+## Important Concepts to Review
+
+1. Array Methods
+  - push, pop, unshift, shift, slice, splice, length
+2. For Loops
+2. Callback Functions
+3. Ternaries
+4. Modulus
+5. Object referencing
 
 I will usually run through [these](https://repl.it/@awestenskow/JS2-Morning-Review) examples.
 
