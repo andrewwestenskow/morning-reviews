@@ -1,10 +1,11 @@
-# React 3 Review - Routing
+# React 3 Review - Axios & HTTP Requests
 
 ## Important concepts to cover
 
-1. What is routing? Why is it useful
-2. The pattern of routing
-   1. Router (HashRouter or BrowserRouter)
-   2. Switch, Route, and Link
+1. What is an http request? Why are they useful?
+2. Promises in javascript
+3. Axios
+   1. Get, Put, Post, Delete
+   2. Queries, Params, Body
 
 ## Review
