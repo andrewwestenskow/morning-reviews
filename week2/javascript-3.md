@@ -1,4 +1,4 @@
-# Week 2, Day 2 Review - Javascript 3
+# Week 2, Day 1 Review - Javascript 3
 
 Before jumping in, ask for any questions. Try to structure the review around their questions, making sure to touch on any points they ask about. I find it helpful to write down all of their questions at the start and work from there.
 
