@@ -32,9 +32,6 @@
     width: 90%;
     height: 100%;
     background: blue;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 0.8rem;
 }
 
 .post-header-actions {
@@ -72,9 +69,6 @@
     width: 45%;
     height: 100%;
     background: blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .like-button {
@@ -82,8 +76,6 @@
     height: 60%;
     align-self: flex-start;
     background: blue;
-    display: flex;
-    justify-content: space-between;
 }
 /* END OF NEW CONTENT */
 
@@ -100,14 +92,11 @@
     /* END OF NEW CONTENT */
 }
 
-
 /* NEW CONTENT */
 .post-action-button {
     width: 25%;
     height: 100%;
     background: blue;
     margin-right: 5px;
-    display: flex;
-    justify-content: space-between;
 }
 /* END OF NEW CONTENT */

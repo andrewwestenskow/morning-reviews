@@ -28,14 +28,14 @@
     width: 90%;
     height: 100%;
     background: blue;
-    display: flex;
     
     /* NEW CONTENT */
+    display: flex;
     padding: 5px;
-    /* END OF NEW CONTENT */
-    
     justify-content: flex-start;
     font-size: 0.8rem;
+    /* END OF NEW CONTENT */
+    
 }
 
 /* NEW CONTENT */
@@ -53,10 +53,6 @@
     width: 80%;
     height: 100%;
     background: yellow;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* padding: 2px; */
 }
 /* END OF NEW CONTENT */
 
@@ -90,11 +86,11 @@
     width: 45%;
     height: 100%;
     background: blue;
+    
+    /* NEW CONTENT */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    /* NEW CONTENT */
     padding: 5px;
     /* END OF NEW CONTENT */
 }
@@ -104,19 +100,18 @@
     width: 100%;
     height: 45%;
     background: yellow;
-    justify-content: left;
 }
 /* END OF NEW CONTENT */
 
 .like-button {
     width: 25%;
     height: 60%;
-    align-self: flex-start;
     background: blue;
-    display: flex;
-    justify-content: space-between;
+    align-self: flex-start;
     
     /* NEW CONTENT */
+    display: flex;
+    justify-content: space-between;
     padding: 5px;
     /* END OF NEW CONTENT */
 }
@@ -154,10 +149,10 @@
     height: 100%;
     background: blue;
     margin-right: 5px;
-    display: flex;
-    justify-content: space-between;
     
     /* NEW CONTENT */
+    display: flex;
+    justify-content: space-between;
     padding: 5px;
     /* END OF NEW CONTENT */
 }

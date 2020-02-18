@@ -57,11 +57,11 @@
   width: 80%;
   height: 100%;
   background: yellow;
+  
+  /* NEW CONTENT */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  /* NEW CONTENT */
   padding: 2px;
   /* END OF NEW CONTENT */
 }
@@ -105,7 +105,6 @@
   width: 100%;
   height: 45%;
   background: yellow;
-  justify-content: left;
 }
 
 .like-button {
