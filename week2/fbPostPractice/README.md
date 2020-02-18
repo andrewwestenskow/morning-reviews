@@ -23,6 +23,9 @@ This repo is also designed to provide practice using various CSS properties incl
 
 ## Facebook "Wow" Post Recreation
 <strong>Let's recreate the below image step by step using HTML and CSS</strong>
+<br/>
+<br/>
+Try and recreate each step to the best of your ability before you look at the solutions provided in this repository for each step.
 
 <p align="center">
   <img src="./assets/FBPost.PNG" width="400">
