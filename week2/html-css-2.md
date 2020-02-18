@@ -22,8 +22,7 @@ Before jumping in, ask for any questions. Try to structure the review around the
 
 This review will take the form of an exercise. We will provide a photo and they will clone it.
 
-- Use [this](https://github.com/DevMountain/Morning-Exercises/tree/master/Week%204/3%20Facebook%20Post) repo if it is still working.
-  - They should focus on layout, not necessarily on content. Get everything to show up where you want it, don't worry about it looking perfect.
-  - Feel free to refer to the fbPostPractice folder included in this repo for a step-by-step example for walking through and building this view according to [this](https://github.com/DevMountain/Morning-Exercises/tree/master/Week%204/3%20Facebook%20Post)
-- You should work along with the students and after 20ish minutes review with them what you did and your thought process in cloning this post.
-- Break down for them the various pieces of the facebook post, how you break it down into boxes and then smaller boxes.
+- Use [this](fbPostPractice) folder as a reference for building out the image step by step
+    - Students should focus on layout, not necessarily on content. Get everything to show up where you want it, don't worry about it looking perfect.
+    - You should work along with the students and after 20ish minutes review with them what you did and your thought process in cloning this post.
+    - Break down for them the various pieces of the facebook post, how you break it down into boxes and then smaller boxes.
