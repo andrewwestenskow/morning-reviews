@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0px;
+}
+
+.fb-post {
+  width: 30vw;
+  height: 90vh;
+  background: green;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post-header {
+    width: 100%;
+    height: 10%;
+    background: red;
+    padding: 5px;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-header-info {
+    width: 90%;
+    height: 100%;
+    background: blue;
+    
+    /* NEW CONTENT */
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    /* END OF NEW CONTENT */
+    
+}
+
+/* NEW CONTENT */
+.profile-picture {
+    height: 100%;
+    width: 10%;
+    background-image: url('https://pbs.twimg.com/profile_images/837228010205913088/WM_aElpn_400x400.jpg');
+    border-radius: 50%;
+    background-size: contain;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+}
+
+.post-header-info-details {
+    width: 80%;
+    height: 100%;
+    background: yellow;
+}
+/* END OF NEW CONTENT */
+
+.post-header-actions {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 15px;
+    width: 15px;
+    background: blue;
+}
+
+.post-image {
+    width: 100%;
+    height: 70%;
+    background-image: url('https://i.imgur.com/iBSqVtQ.jpg');
+    background-size: cover;
+}
+
+.post-description {
+    width: 100%;
+    height: 10%;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.post-description-info {
+    width: 45%;
+    height: 100%;
+    background: blue;
+    
+    /* NEW CONTENT */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    /* END OF NEW CONTENT */
+}
+
+/* NEW CONTENT */
+.post-description-info-line {
+    width: 100%;
+    height: 45%;
+    background: yellow;
+}
+/* END OF NEW CONTENT */
+
+.like-button {
+    width: 25%;
+    height: 60%;
+    background: blue;
+    align-self: flex-start;
+    
+    /* NEW CONTENT */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    /* END OF NEW CONTENT */
+}
+
+/* NEW CONTENT */
+.button-icon {
+    height: 100%;
+    width: 25%;
+    background: yellow;
+}
+
+.button-description {
+    width: 70%;
+    height: 100%;
+    background: yellow;
+    display: flex;
+    justify-content: left;
+    padding-left: 3px;
+    align-items: center;
+}
+/* END OF NEW CONTENT */
+
+.post-actions {
+    width: 100%;
+    height: 7%;
+    background: red;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post-action-button {
+    width: 25%;
+    height: 100%;
+    background: blue;
+    margin-right: 5px;
+    
+    /* NEW CONTENT */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    /* END OF NEW CONTENT */
+}

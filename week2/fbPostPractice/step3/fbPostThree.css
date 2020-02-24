@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0px;
+}
+
+.fb-post {
+  width: 30vw;
+  height: 90vh;
+  background: green;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post-header {
+    width: 100%;
+    height: 10%;
+    background: red;
+    
+    /* NEW CONTENT */
+    padding: 5px;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    /* END OF NEW CONTENT */
+}
+
+/* NEW CONTENT */
+.post-header-info {
+    width: 90%;
+    height: 100%;
+    background: blue;
+}
+
+.post-header-actions {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 15px;
+    width: 15px;
+    background: blue;
+}
+/* END OF NEW CONTENT */
+
+.post-image {
+    width: 100%;
+    height: 70%;
+    background-image: url('https://i.imgur.com/iBSqVtQ.jpg');
+    background-size: cover;
+}
+
+.post-description {
+    width: 100%;
+    height: 10%;
+    background: red;
+
+    /* NEW CONTENT */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    /* END OF NEW CONTENT */
+}
+
+/* NEW CONTENT */
+.post-description-info {
+    width: 45%;
+    height: 100%;
+    background: blue;
+}
+
+.like-button {
+    width: 25%;
+    height: 60%;
+    align-self: flex-start;
+    background: blue;
+}
+/* END OF NEW CONTENT */
+
+.post-actions {
+    width: 100%;
+    height: 7%;
+    background: red;
+
+    /* NEW CONTENT */
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    /* END OF NEW CONTENT */
+}
+
+/* NEW CONTENT */
+.post-action-button {
+    width: 25%;
+    height: 100%;
+    background: blue;
+    margin-right: 5px;
+}
+/* END OF NEW CONTENT */

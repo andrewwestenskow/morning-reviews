@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0px;
+}
+
+.fb-post {
+  width: 30vw;
+  height: 90vh;
+  background: green;
+}
