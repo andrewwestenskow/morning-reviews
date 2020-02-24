@@ -1,6 +1,8 @@
-# Javascript Review
+# Week 2, Day 4 - Javascript Review
 
-This review should be centered around the skills check that is given at the end of week 2. It can be found [here](https://github.com/DevMountain/web-week2-skillscheck). This review can go for as long as students still have questions. This guide will cover generally which topics should be covered but it's a good idea to ask the day before for questions students have and spend more time on those topics.
+<strong>IMPORTANT: The following code is a framework for the JavaScript review lecture, not a morning review for Week 2, Day 5 of the course</strong>
+
+This review should be centered around the skills check that is given at the end of Week 2. It can be found [here](https://github.com/DevMountain/web-week2-skillscheck). This review can go for as long as students still have questions. This guide will cover generally which topics should be covered but it's a good idea to ask the day before for questions students have and spend more time on those topics.
 
 ## Review
 
@@ -63,17 +65,17 @@ We will review the following topics:
 
 - For in loop to change values on an object
 
-## HTML and vanilla practice
+## HTML and Vanilla JavaScript practice
 
 - Design with the class a simple counter app. Work with them on creating the layout and styling.
-- Use javascript to make the counter functional.
+- Use JavaScript to make the counter functional.
 
 ## Bonus practice
 
-These are javascript concepts that have been covered in lecture but are not included in the skills check
+These are JavaScript concepts that have been covered in lecture but are not included in the skills check
 
 - Context
-  - this
+  - `this` keyword
   - default
   - implicit
   - explicit
@@ -82,6 +84,6 @@ These are javascript concepts that have been covered in lecture but are not incl
     - bind
   - Behavior of arrow functions
 - Constructor functions
-  - new keyword
+  - `new` keyword
 - Prototypes
   - Custom prototypes
