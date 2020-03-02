@@ -1,18 +1,25 @@
-# React Review Review
+# Week 3, Day 5 Review - React Review
 
-Note: We will be finishing building our amazing movie list app which can be found at [this](https://github.com/andrewwestenskow/react-morning-reviews) repo. You can find a finished version on the `finished` branch.
+NOTE: In this review, we will continue building our project from the React 1 & 2 morning reviews. The base repo can be found [here](https://github.com/LucasSchaat/react-morning-reviews). You can find a finished version of the app [here](https://github.com/WLH17/react-morning-reviews). In the final portion of the review, we will be creating the functionality for adding to and deleting from this list of movies.
 
-## Concepts to review.
+Before jumping in, ask for any questions. Try to structure the review around their questions, making sure to touch on any points they ask about. I find it helpful to write down all of their questions at the start and work from there.
 
-- The component lifecycle.
-  - Before coding with everyone today. Review with them [this](https://miro.medium.com/max/2258/1*552z6hbX_b648DjpTLHZNg.png) graphic about the component lifecycle. Let them know that today's lecture (axios) will lean heavily on this concept and they should ask any questions they have about it now.
-- We will also finish reviewing props and binding as well as flexing a bit of javascript logic to handle adding to and removing from our list of movies.
+## Lecture Notes and Slides
+
+<!-- - Notes: -->
+- Slides: https://slides.com/matias_perez/react-three
+
+## Important Concepts to Review
+
+1. The Component Lifecycle
+  - Before coding with everyone today, review with them [this](https://miro.medium.com/max/2258/1*552z6hbX_b648DjpTLHZNg.png) graphic about the Component Lifecycle. Let them know that today's lecture (axios) will lean heavily on this concept and they should ask any questions they have about it now.
+- We will also finish reviewing props and binding as well as flexing a bit of JavaScript logic to handle adding to and removing from our list of movies.
 
 ## Review
 
-1. After talking about the component lifecycle. We will finish building out the logic in our movie list app.
+1. After talking about the Component Lifecycle. We will finish building out the logic in our movie list app.
 
-First, we want to create a function to add movies to our list in our List component. Walk through with the students how to create it. Don't forget to also bind the function as we will be passing it as props.
+To begin, we want to create a function to add movies to our list in our `List` component. Walk through with the students how to create it. Don't forget to also bind the function as we will be passing it as props.
 
 ```js
 addMovie(title, year, posterImg) {
@@ -39,7 +46,7 @@ deleteMovie(id) {
   }
 ```
 
-At the end your List component should look like this:
+At the end, your `List` component should look like this:
 
 ```js
 import React, { Component } from 'react'
@@ -63,7 +70,6 @@ class List extends Component {
     const id = this.state.movies[this.state.movies.length - 1].id + 1
     const newMovie = { id, title, year, posterImg }
     const newArr = [...this.state.movies, newMovie]
-
     this.setState({
       movies: newArr,
     })
@@ -95,11 +101,10 @@ class List extends Component {
 export default List
 ```
 
-We then want to edit our form component to have the logic to complete this action:
+We then want to edit our `Form` component to have the logic to complete this action:
 
 ```js
 import React, { Component } from 'react'
-import './form.css'
 
 class Form extends Component {
   constructor(props) {
@@ -111,7 +116,6 @@ class Form extends Component {
     }
 
     this.handleAdd = this.handleAdd.bind(this)
-    this.handleChange = this.handleChange.bind(this)
   }
 
   handleAdd(e) {
@@ -145,14 +149,13 @@ export default Form
 
 Test this with the students.
 
-Lastly we will complete the logic to delete a movie. Walk your students through the logic of deleting a list item. Your ListItem component should look like this:
+Lastly we will complete the logic to delete a movie. Walk your students through the logic of deleting a list item. Your `ListItem` component should look like this:
 
 ```js
 import React from 'react'
-import './listItem.css'
 
 function ListItem(props) {
-  const { movie } = props
+  const { movie, deleteMovie } = props
   return (
     <div className="List-Item">
       <img alt={movie.title} className="movie-poster" src={movie.posterImg} />
@@ -160,7 +163,7 @@ function ListItem(props) {
         <p>{movie.title}</p>
         <p>{movie.year}</p>
       </div>
-      <p onClick={() => props.deleteMovie(movie.id)} className="delete-button">
+      <p onClick={() => deleteMovie(movie.id)} className="delete-button">
         X
       </p>
     </div>
@@ -170,4 +173,4 @@ function ListItem(props) {
 export default ListItem
 ```
 
-Your movie list app should now be functional. This will give the students reference code for many fundamental topics in react.
+Your movie list app should now be functional. This will give the students reference code for many fundamental topics in React.
