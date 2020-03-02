@@ -1,10 +1,17 @@
-# Node 1 Review
+# Week 4, Day 2 Review - Node 1
 
-## Important concepts to review
+Before jumping in, ask for any questions. Try to structure the review around their questions, making sure to touch on any points they ask about. I find it helpful to write down all of their questions at the start and work from there.
 
-1. Vocabulary: node, express, npm, endpoint, request, controller, status code, REST
+## Lecture Notes and Slides
+
+- Notes: https://github.com/WLH-16/node-1
+- Slides: https://slides.com/matias_perez/node-one
+
+## Important Concepts to Review
+
+1. Vocabulary: node, express, npm, endpoint, request, status code, REST
 2. NPM: Initializing, installing packages, .gitignore
-3. Express: Building a server, constructing endpoints, controller file
+3. Express: Building a server, constructing endpoints
 
 We will be using [this](https://github.com/andrewwestenskow/node-morning-reviews) repo as the basis for our review. At the start it will only contain some dummy user data but we will build it out to be a back end with full CRUD that we can interact with through our endpoints.
 
@@ -13,11 +20,11 @@ We will be using [this](https://github.com/andrewwestenskow/node-morning-reviews
 - Start out by reviewing vocabulary with the students. Go over with them what node, express, and npm are. This could be a good time to discuss framework vs. library again.
 - Once they have a decent understanding of those concepts we can move on to code with them. Try to have them walk you through the code as much as possible. Give them the idea of what we want to accomplish and then let them tell you how. Test every step of the way, console logs, making requests in the browser, and checking for errors will all be valuable here.
 
-1. Run `npm init -y` and show them how this creates a `package.json` file. This is now a good time to build out the file structure.
-2. Create a server folder and place an `index.js` and `controller.js` in that folder.
-   1. You should also review with them the `"main"` property in the `package.json` file as well.
+1. Run `npm init -y` and show them how this creates a `package.json` file
+2. Create a server folder and place an `index.js`
+   - You should also review with them the `"main"` property in the `package.json` file as well
 3. Install express using npm and show them how this now creates a lockfile and a node_modules folder
-   1. Review .gitignore and show them how to include their node_modules in that file
+   - Review .gitignore and show them how to include their node_modules in that file
 4. Step by step, build out with them the following server file:
 
 ```js
@@ -33,37 +40,35 @@ app.listen(port, () => console.log(`Server running on port ${port}`))
 4. Test the server using the `nodemon` command before moving on. Explain each step of the server and what it is doing.
 5. We then want to build out our first endpoint and handler function:
 
-```js controller.js
-//controller.js
-module.exports = {
-  getAllUsers: (req, res) => {},
-}
-```
-
 ```js
 //index.js
 const express = require('express')
-const ctrl = require('./controller')
 
 const app = express()
 const port = 4338
 
-app.get('/api/users', ctrl.getAllUsers)
+app.get('/api/users', (req, res) => {
+
+})
 
 app.listen(port, () => console.log(`Server running on port ${port}`))
 ```
 
-6. Then we will build out the functionality of our controller file. We will need to require our data and then instruct our endpoint to serve it up:
+6. Then we will build out the functionality of handler function. We will need to require our data and then instruct our endpoint to serve it up:
 
 ```js
-//controller.js
+//index.js
+const express = require('express')
 const users = require('../users.json')
 
-module.exports = {
-  getAllUsers: (req, res) => {
-    res.status(200).send(users)
-  },
-}
+const app = express()
+const port = 4338
+
+app.get('/api/users', (req, res) => {
+  res.status(200).send(users)
+})
+
+app.listen(port, () => console.log(`Server running on port ${port}`))
 ```
 
 7. If there is time you should also build out an endpoint to fetch a single user based on their id:
@@ -73,27 +78,16 @@ module.exports = {
 //index.js
 
 const express = require('express')
-const ctrl = require('./controller')
+const users = require('../users.json')
 
 const app = express()
 const port = 4338
 
-app.get('/api/users', ctrl.getAllUsers)
-app.get('/api/users/:id', ctrl.getOneUser)
+app.get('/api/users', (req, res) => {
+  res.status(200).send(users)
+})
 
-app.listen(port, () => console.log(`Server running on port ${port}`))
-```
-
-```js
-//controller.js
-const users = require('../users.json')
-
-module.exports = {
-  getAllUsers: (req, res) => {
-    res.status(200).send(users)
-  },
-
-  getOneUser: (req, res) => {
+app.get('/api/users/:id', (req, res) => {
     const { id } = req.params
 
     if (!id) {
@@ -107,5 +101,7 @@ module.exports = {
     }
 
     res.status(200).send(user)
-  },
+  })
+
+app.listen(port, () => console.log(`Server running on port ${port}`))
 ```
