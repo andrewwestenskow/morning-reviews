@@ -12,3 +12,5 @@
       2. mapDispatchToProps
 
 ## Review
+
+The review will consist of [this](https://github.com/andrewwestenskow/redux-review) repo. There are instructions in the repo itself that will guide the review.  
