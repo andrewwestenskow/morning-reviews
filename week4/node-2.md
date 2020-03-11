@@ -1,5 +1,7 @@
 # Week 4, Day 3 Review - Node 2
 
+Before jumping in, ask for any questions. Try to structure the review around their questions, making sure to touch on any points they ask about. I find it helpful to write down all of their questions at the start and work from there.
+
 ## Lecture Notes and Slides
 
 - Notes: https://github.com/WLH-16/node-2
@@ -16,7 +18,7 @@ We will be continuing to use [this](https://github.com/andrewwestenskow/node-mor
 ## Review
 
 1. Ask for any questions that they have, it is likely that they will have a hard time contextualizing the previous day's afternoon project. Especially if they did not get to the section where they use the front end.
-2. There are two ways to handle the rest of the review: If you feel that the students have a good grasp of the content,instruct them to create endpoints to post, put, or delete data (or all three) and give them a set amount of time. The idea is that their endpoints will be able to create a new user, edit an existing user, or delete a user. If you let them work on their own, they likely will not finish in the alloted time. The other option is to work through it with them, base your decision on their current understanding of the content.
+2. There are two ways to handle the rest of the review: If you feel that the students have a good grasp of the content, instruct them to create endpoints to post, put, or delete data (or all three) and give them a set amount of time. The idea is that their endpoints will be able to create a new user, edit an existing user, or delete a user. If you let them work on their own, they likely will not finish in the alloted time. The other option is to work through it with them, base your decision on their current understanding of the content.
 
 However you decide to handle it you should eventually walk them through the following code, either coding with them or after the fact:
 
