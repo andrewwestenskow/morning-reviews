@@ -4,7 +4,7 @@ NOTE: Given that students are just finishing their noDB or 3/4 Stack projects, t
 
 This review is meant to help students practice debugging broken code by following error messages in the console and placing `console.log`'s through their code to understand how data is flowing from step to step. The code that students will be trying to debug can be found [here](https://repl.it/@matias_perez/Debugging-Morning-Review-Broken).
 
-The solution code for this exercise can be found [here](https://repl.it/@matias_perez/Debugging-Morning-Review-Solved).
+The solution code for this exercise can be found [here](https://repl.it/@LucasSchaat/Debugging-Morning-Review-Solved).
 
 ## Important Concepts to Review
 

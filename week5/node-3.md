@@ -48,7 +48,7 @@ Now that we have tested the server, let's connect it to a database following the
 
     ```js
     SERVER_PORT = 3322
-    CONNECTION_STRING = herokuDB.url + `?ssl=true`
+    CONNECTION_STRING = herokuDB.url
     ```
 
 5. Now that we have set up our `.env` file, let's bring those variables into our `index.js` file so we can use them to connect to the Heroku database and to get our application up and running. (Remember: The server already has a variable called `SERVER_PORT`, so you will have to delete that variable at this time):
@@ -60,7 +60,11 @@ Now that we have tested the server, let's connect it to a database following the
 6. The last thing that we need to do to connect to our Heroku database is to invoke `massive`, passing in the `CONNECTION_STRING` as an argument and then using a `.then` method to set the db in our server:
 
     ```js
-    massive(CONNECTION_STRING).then(db => {
+    massive({
+        connectionString: CONNECTION_STRING,
+        ssl: { rejectUnauthorized: false }
+    })
+    .then(db => {
         app.set('db', db)
         console.log('db connected')
     })
@@ -87,9 +91,12 @@ Now that we have tested the server, let's connect it to a database following the
     app.use(cors())
     app.use(express.json())
 
-    massive(CONNECTION_STRING).then(db => {
-        app.set('db', db)
-        console.log('db connected')
+    massive({
+        connectionString: CONNECTION_STRING,
+        ssl: { rejectUnauthorized: false }
+    }).then(db => {
+        app.set("db", db);
+        console.log("db connected");
     })
 
     app.get('/api/characters', cc.getAllCharacters)
