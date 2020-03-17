@@ -189,7 +189,7 @@ const executor = otherFunction => {
 }
 
 executor(function () {
-  nameFinder(people[0])
+  return nameFinder(people[0])
 })
 
 //Add another method to the robot object called robotSays, it should take in a callback function and return the string `Robot says ` and then the result of the callback.
@@ -337,13 +337,15 @@ const yearsLived = inventors.reduce((acc, element) => {
 // 4. Sort the inventors by birthdate, oldest to youngest (.sort)
 
 const whoIsOld = inventors.sort((a, b) => {
-  if (a.year > b.year) {
-    return 1
-  } else if (a.year < b.year) {
-    return -1
-  } else {
-    return 0
-  }
+  // if (a.year > b.year) {
+  //   return 1
+  // } else if (a.year < b.year) {
+  //   return -1
+  // } else {
+  //   return 0
+  // }
+
+  return a.year - b.year
 })
 
 // console.log(whoIsOld)

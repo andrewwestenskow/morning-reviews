@@ -102,7 +102,7 @@
    - Preview HTML / CSS I Content
    - Extension Suggestions:
    
-   > Chrome Extensions:
+   > Chrome Extensions 
    > - Video Speed Controller
    > - Eye Dropper
    > - WhatFont
@@ -113,9 +113,11 @@
    > - AutoFileName
    > - Bracket Pair Colorizer or Rainbow Brackets
    > - GitLens
-   > - JavaScript (ES6) Code Snippets
    > - Markdown Preview GitHub Styling
    > - Open in Browser
    > - Path Intellisense
    > - Themes
-   > - Prettier - Code formatter - Be careful that you don't get too lazy and rely heavily on this!
+
+   > Settings
+   > - AutoSave - onFocusChange or afterDelay
+   > - Word Wrap - on 
