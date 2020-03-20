@@ -1,0 +1,1 @@
+Walk-through the full stack debugging exercise with students adding console logs and talking through how to go about solving the bugs
