@@ -23,7 +23,7 @@ Old Node 5 - Authentication
 
 ## Review
 
-This review will be using [this](https://github.com/LucasSchaat/node3-morning-review) repo as the launching point for the review. The repo provides a fully functioning React frontend and requires work on the backend to set up a server, connect it to a database, set up sessions, and create the endpoints that will allow a user to register, login, and logout. Depending on how long it takes to walk through this review, it may also be helpful for students to spend time walking through the logic for how the React components are built in the frontend (e.g., props.match.params, routing, etc.).
+This review will be using [this](https://github.com/LucasSchaat/node4-morning-review) repo as the launching point for the review. The repo provides a fully functioning React frontend and requires work on the backend to set up a server, connect it to a database, set up sessions, and create the endpoints that will allow a user to register, login, and logout. Depending on how long it takes to walk through this review, it may also be helpful for students to spend time walking through the logic for how the React components are built in the frontend (e.g., props.match.params, routing, etc.).
 
 The finished repo code can be found in the same repo under the 'functioning front end' commit message.
 
