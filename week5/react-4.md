@@ -20,7 +20,7 @@ Regardless of when this is delivered, try to structure the review around the stu
 
 This review will be using [this](https://github.com/LucasSchaat/routing-morning-review) repo as the launching point for the review. The repo provides a basic server, get endpoint, and sample data for building out a React frontend. Although the focus of the review is on the routing concept, feel free to add some design to the code as it is built out.
 
-The finished repo code can be found in the same repo as above under the 'Completed Review Code' commit message.
+The finished repo code can be found in the same repo as the above under the 'Completed Review Code' commit message.
 
 1. To begin, have the students fork and clone the repo above. Once they have done that, have them open the project and run `npm install` at the root of the project.
 

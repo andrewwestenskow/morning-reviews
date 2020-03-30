@@ -1,1 +1,1 @@
-Spend time here reviewing unit tests and potentially render-props and passing props through routes, also introduce withRouter
+Spend time here reviewing unit tests
