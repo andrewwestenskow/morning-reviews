@@ -1,4 +1,4 @@
-Week 7, Day 1 Review
+# Week 7, Day 1 Review
 
 This morning review is scheduled to take place after the students have completed the third skills check. The content for this review should be very flexible depending on student preference and need. The suggested review theme and material included below should be considered subsequent material and as such should be used in the case there are few outstanding student preferences and needs for this review time.
 
@@ -30,7 +30,7 @@ NOTE: This review is not meant to be rigid in structure, the focus should be on 
     - Succintly being able to communicate step by step what you are thinking as you try to solve a problem
         - This communication could allow for your interviewer to help guide you if you get stuck or need help moving forward with solving the problem
         - This communication also is a way to demonstrate your underlying understanding of the constructs and environments associated with solving this problem (e.g., able to demonstrate understanding of JavaScript and how that differs from other languages like C++, etc.)
-    - Being able to communicate what you have done and where you are getting stuck will also help expedite the proces for helping you move on with problems that you encounter
+    - Being able to communicate what you have done and where you are getting stuck will also help expedite the process for helping you move on with problems that you encounter
     - Understanding how you think through problems will help others teach or coach you through difficult concepts / constructs
     - Demonstrates humility and ability to learn if you are communicating throughout the entire process
 
